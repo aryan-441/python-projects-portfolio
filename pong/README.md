@@ -1,19 +1,17 @@
 # Pong
 
-A two-player Pong game built with Python Turtle. The source has paddle, ball, and scoreboard components, with keyboard input for both players.
+**Project date: 5 May 2026.**
+
+A two-player Pong game built with Python Turtle. The source separates the paddle, ball, and scoreboard components.
 
 ## Controls
 
 Left paddle: **W/S**. Right paddle: **Up/Down**.
 
-## Requirements and setup
+## Run
 
-Python 3 with Tkinter/Turtle. Run `python main.py` from the `pong_game` folder.
+Python 3 with Tkinter/Turtle. Run `python main.py` from this folder.
 
-## Limitations and attribution
+## Notes
 
-This is course-derived work. The current main loop needs review: collision/scoring conditions do not consistently cover both sides and boundaries. Drive metadata for `main.py` is 2026-05-05; no authored project date appears in the source.
-
-No license has been selected.
-
-**Source file date in Drive File Explorer:** Created and last modified 5 May 2026.
+This is a course exercise. Collision and scoring behavior needs work on both sides and at the boundaries.

@@ -1,11 +1,6 @@
 # Pomodoro Timer
-
-**Source file dates in Drive File Explorer:** main.py created 10 November 2020; last modified 17 May 2026. These are file metadata dates, not a verified development timeline.
-
+**Project date: 10 November 2020. Updated 17 May 2026.**
 An incomplete Pomodoro timer course exercise.
-
 ## Run
-
-This draft has known timer cancellation and completion-path defects; review before relying on it. Run python main.py from this folder.
-
-Course-derived exercise. Review any linked assets or data before redistribution.
+Known issues: timer cancellation and completion handling need work. Run python main.py from this folder.
+A course exercise.

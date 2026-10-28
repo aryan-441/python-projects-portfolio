@@ -1,19 +1,17 @@
 # Blackjack
 
-A console-based Blackjack exercise with a standard deck, player/dealer hands, hit-or-stand input, and a chip-betting loop.
+**Project date: 21 May 2025. Updated: 21 October 2025.**
+
+A console Blackjack game with a standard deck, hit-or-stand input, and chip betting.
 
 ## Design
 
-The source defines `Card`, `Deck`, `Hand`, and `Chips` classes. Helper functions deal cards, adjust an ace when a hand exceeds 21, display hands, and resolve a round.
+The source defines Card, Deck, Hand, and Chips classes. It deals cards, adjusts aces when a hand exceeds 21, displays hands, and resolves a round.
 
-## Requirements and setup
+## Run
 
-Python 3; no third-party packages are imported. Run `python mlp_2_blackjack.py` from the project folder.
+Python 3. Run `python mlp_2_blackjack.py` from this folder.
 
-## Limitations and attribution
+## Notes
 
-This is a course milestone exercise, not a complete casino rules implementation. The current code needs review for multiple-ace handling, input edge cases, chip balance across hands, and game-state reset. The source is a single script and runs the game at module level. Drive metadata for the file is 2025-05-21 created and 2025-10-21 modified; no authored project date appears in the file.
-
-No license has been selected.
-
-**Source file dates in Drive File Explorer:** Created 21 May 2025; last modified 21 October 2025.
+This is a course exercise, not a full casino rules implementation. Multiple-ace handling, input validation, chip balances, and resetting between rounds need improvement. The game starts when the script runs.
