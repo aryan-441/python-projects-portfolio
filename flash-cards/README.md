@@ -15,3 +15,5 @@ Python 3, Tkinter, and pandas. From this folder, install pandas with `python -m 
 This is a course capstone exercise. It expects the vocabulary columns `Spanish` and `English` and uses relative file paths. Confirm that the vocabulary data and images may be redistributed. Drive lists `main.py` as created 2026-06-01 and modified 2026-09-13; these are file metadata dates, not a verified project timeline.
 
 No license has been selected.
+
+**Source file dates in Drive File Explorer:** Created 1 June 2026; last modified 13 September 2026.

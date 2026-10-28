@@ -15,3 +15,5 @@ Python 3 with Tkinter/Turtle. Run `python main.py` from the `pong_game` folder.
 This is course-derived work. The current main loop needs review: collision/scoring conditions do not consistently cover both sides and boundaries. Drive metadata for `main.py` is 2026-05-05; no authored project date appears in the source.
 
 No license has been selected.
+
+**Source file date in Drive File Explorer:** Created and last modified 5 May 2026.

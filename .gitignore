@@ -6,3 +6,14 @@ build/
 dist/
 .env
 flash-cards/words_to_learn.csv
+
+# Local credentials and machine-specific secrets
+.env
+.env.*
+!.env.example
+secrets/
+secrets.*
+credentials.*
+*.pem
+*.p12
+*.pfx
