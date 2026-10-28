@@ -1,6 +1,6 @@
-# Python Course Projects
+# Python Projects Portfolio
 
-A curated set of Python exercises and applications completed while following course material. The collection keeps course-derived work together and gives each selected project its own folder and README. Course attribution and original authorship should be stated accurately; this repository should contain only files that can be redistributed.
+A curated portfolio of focused Python applications, games, and interactive exercises. Some projects are course-derived; each folder has its own README with project context, setup guidance, limitations, and attribution notes.
 
 ## Included projects
 
