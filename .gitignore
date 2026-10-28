@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+.env
+flash-cards/words_to_learn.csv
