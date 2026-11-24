@@ -6,7 +6,7 @@ def generate_key():
 
 def encrypt_bytes(data, key,iv ):
 
-    #ENCRYPTION ALGORITHM: Encrypted_byte = ((original_byte XOR first_selected_key_byte) + second_selected_key_byte + previous_byte) % 256  <-- this is a reversible operation
+    #ENCRYPTION ALGORITHM: Encrypted_byte = ((original_byte XOR first_selected_key_byte XOR previous_byte) + next_key_byte) % 256  <-- this is a reversible operation
     if not key:
         raise ValueError("Encryption key field cannot be empty.")
     encrypted = bytearray()
@@ -20,8 +20,7 @@ def encrypt_bytes(data, key,iv ):
             previous_byte = iv #intialising vector
         else:
             previous_byte = encrypted[i-1]
-        encrypted_byte = ((original_byte ^ key_byte) + next_key_byte + previous_byte) % 256
-
+        encrypted_byte = ((original_byte ^ key_byte ^ previous_byte) + next_key_byte) % 256
         encrypted.append(encrypted_byte)
 
     return bytes(encrypted) #converting to bytes because a bytearray object is immutable
@@ -42,9 +41,9 @@ def decrypt_bytes(data,key, iv):
         else:
             previous_byte = data[i-1]
         
-        #DECRYPTION ALGO: Decrypted_byte = ((encrypted_byte - next_key_byte - previous_byte) % 256) XOR key_byte   
+        #DECRYPTION ALGO: Decrypted_byte = ((encrypted_byte - next_key_byte) % 256) XOR previous_byte XOR key_byte   
 
-        decrypted_byte = ((encrypted_byte - next_key_byte - previous_byte) % 256) ^ key_byte
+        decrypted_byte = ((encrypted_byte - next_key_byte) % 256) ^ previous_byte ^ key_byte
         decrypted.append(decrypted_byte)
 
     return bytes(decrypted)
