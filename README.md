@@ -22,7 +22,6 @@ A portfolio of Python applications, games, and course exercises.
 | Pomodoro Timer | 10 November 2020 |
 | Tkinter Unit Converter | 16 May 2026 |
 | Auto Clicker | 27 September 2026 |
-| Encryption/decryption exercises | 10 December 2024 |
 | Encryption V2 | 24/11/26 |
 
 ## 100 Days of Code course projects
@@ -46,7 +45,6 @@ A portfolio of Python applications, games, and course exercises.
 ## Other Python projects
 
 - [Auto Clicker](small-python-projects/autoclicker/README.md)
-- [Encryption and Decryption Exercises](small-python-projects/encryption-tools/README.md)
 - [Encryption V2](encryption_algorithm/README.md)
 
 Each project README lists its setup and limitations.
